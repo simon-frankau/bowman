@@ -89,6 +89,18 @@ The `dumps` directory contains the raw dumps of the odd and even byte
 EPROMs, plus "`combined.bin`", which interleaves them to create the
 actual memory image seen by the CPU.
 
-TODO: Disassembly.
+The directory also contains an exported Ghidra project (from version
+10.1.3), and text disassembly export for this ROM. I have done my best
+not to fall down the rabbit hole of trying to reverse this image,
+tempting thought it is - it looks like it should be pretty
+straightforward to pull apart, with function pointer tables for the
+system calls, monitor commands and what I think is the assembler
+opcodes.
+
+I was surprised to see references to files names like
+"../kasm_main.c", suggesting the assembler was cross-compiled from
+some kind of Unix, which would be a pretty chunky (but not unheard of)
+development environment for people developing micro software in the
+'80s.
 
 ## TODO: Add photos
