@@ -43,11 +43,18 @@ A3 sheets. I've organised this content into the repo as follows:
 
  * [bowman](./bowman) - A scan of the main manuals, minus the
    schematics.
+ * [schematics](./schematics) - Photos of the Bowman's schematics.
  * [kaybug-1.0](./kaybug-1.0) - A scan of the Kaybug version 1.0
    manual.
  * [kaybug-3.1](./kaybug-3.1) - A scan of the Kaybug version 3.1
    manual.
- * TODO - further manual scans, ROMs
+ * TODO: ROM dumps
+
+You may think that the Bowman's schematics, as a set of photos, aren't
+great quality, and scanning and stitching would be better. I did take
+some scans, but gave up before stitching, as the photocopies in the
+manual just aren't very good. All those hand-written identifiers still
+look really bad, whether they're scanned or photographed.
 
 ## Notes
 
