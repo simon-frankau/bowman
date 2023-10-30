@@ -1,5 +1,7 @@
 ># The Sherwood Bowman 68000 Single Board Computer
 
+![A top-down photograph of the SDS Bowman](./front.jpg)
+
 The Sherwood Data Systems Bowman was a 68000-based single-board
 computer from the 1980s.
 
@@ -22,8 +24,11 @@ In 1995, I had a summer job working at MRG Systems in Stroud, UK. They
 developed teletext systems and display systems used in betting
 shops. I believe their custom hardware was 68k-based. At the end of my
 job, I rather cheekily asked if they had any old, unused hardware
-going spare, and thus managed to score this (then obsolete) board. I
-had some fun working with 68K assembly, and cross-assembling for it,
+going spare, and thus managed to score this (then obsolete) board.
+
+According to the silkscreen, it's a 400.801, Issue 3.
+
+I had some fun working with 68K assembly, and cross-assembling for it,
 with the aim of producing a very basic LISP (a language I was rather
 interested in, at the time).
 
@@ -103,4 +108,20 @@ some kind of Unix, which would be a pretty chunky (but not unheard of)
 development environment for people developing micro software in the
 '80s.
 
-## TODO: Add photos
+## Board state
+
+I'm including photos of the [front](./front.jpg) and
+[back](./back.jpg) of the board. You can see the large transformers
+and caps associated with the unenclosed linear PSU. You can also see
+the empty sockets for DRAM - I thought this board came with DRAM
+installed, but apparently I only had the SRAM (you can see the two
+chips of the EPROM monitor, and two chips of SRAM. The other banks are
+empty).
+
+If you have slightly more eagle eyes, you will spot that the backup
+battery is slightly fuzzy. D'oh! Sometime in the last couple of
+decades, it started to leak. I have promptly snipped it off the board
+and disposed of it (it's not vital to the functionality). Inspecting
+the area left behind, it doesn't look like it's too badly damaged. I'm
+grateful that all the ICs are socketed, making investigation and
+fix-ups easier.
