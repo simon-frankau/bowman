@@ -1,4 +1,4 @@
-# The Sherwood Bowman 68000 Single Board Computer
+># The Sherwood Bowman 68000 Single Board Computer
 
 The Sherwood Data Systems Bowman was a 68000-based single-board
 computer from the 1980s.
@@ -41,6 +41,8 @@ three manuals - one for the board itself, and two for two different
 versions of Kaybug. The board manual includes schematics on fold-out
 A3 sheets. I've organised this content into the repo as follows:
 
- * TODO - manual scans, ROMs
+ * [bowman](./bowman) - A scan of the main manuals, minus the
+   schematics.
+ * TODO - further manual scans, ROMs
 
 ## TODO: EEPROM disassembly?
