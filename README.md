@@ -43,6 +43,8 @@ A3 sheets. I've organised this content into the repo as follows:
 
  * [bowman](./bowman) - A scan of the main manuals, minus the
    schematics.
+ * [kaybug-1.0](./kaybug-1.0) - A scan of the Kaybug version 1.0
+   manual.
  * TODO - further manual scans, ROMs
 
 ## Notes
