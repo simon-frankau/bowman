@@ -45,6 +45,8 @@ A3 sheets. I've organised this content into the repo as follows:
    schematics.
  * [kaybug-1.0](./kaybug-1.0) - A scan of the Kaybug version 1.0
    manual.
+ * [kaybug-3.1](./kaybug-3.1) - A scan of the Kaybug version 3.1
+   manual.
  * TODO - further manual scans, ROMs
 
 ## Notes
