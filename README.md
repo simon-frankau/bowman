@@ -48,7 +48,7 @@ A3 sheets. I've organised this content into the repo as follows:
    manual.
  * [kaybug-3.1](./kaybug-3.1) - A scan of the Kaybug version 3.1
    manual.
- * TODO: ROM dumps
+ * [dumps](./dumps) - Contains the EPROM dumps of Kaybug 3.1.
 
 You may think that the Bowman's schematics, as a set of photos, aren't
 great quality, and scanning and stitching would be better. I did take
@@ -56,7 +56,7 @@ some scans, but gave up before stitching, as the photocopies in the
 manual just aren't very good. All those hand-written identifiers still
 look really bad, whether they're scanned or photographed.
 
-## Notes
+## Hardware notes
 
 To me, the board looks pretty fully-featured, and doesn't cut corners
 on optional features - supporting external DTACK (with bus timeout),
@@ -83,4 +83,12 @@ interesting to see how simply the RAS/CAS and refresh circuitry are
 implemented, even if this is because they use DTACK rather than try to
 squeeze between memory accesses. Not a PAL or GAL in sight.
 
-## TODO: EEPROM disassembly?
+## Software notes
+
+The `dumps` directory contains the raw dumps of the odd and even byte
+EPROMs, plus "`combined.bin`", which interleaves them to create the
+actual memory image seen by the CPU.
+
+TODO: Disassembly.
+
+## TODO: Add photos
