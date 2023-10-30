@@ -45,4 +45,31 @@ A3 sheets. I've organised this content into the repo as follows:
    schematics.
  * TODO - further manual scans, ROMs
 
+## Notes
+
+To me, the board looks pretty fully-featured, and doesn't cut corners
+on optional features - supporting external DTACK (with bus timeout),
+and vectored interrupts, a watchdog timer and power failure
+circuitry. The external bus access lines are properly
+buffered. There's battery-backed RAM. Plenty of jumpers for
+configurability. It feels "well-engineered" and rather unlike the "if
+in doubt, leave it out" kind of design I've seen with some other 68K
+designs, such as the early Macs (with their Woz-style minimisation).
+
+AFAICT, not all components are properly identified on the schematic,
+the default jumper configuration isn't clear, and the circuit
+descriptions in the manual leave you flipping back and forth through
+the schematics to find the relevant circuit.
+
+It's fun to see that the demuxing of the address bus into RAS and CAS
+is done for odd and even bits of the address bus, rather than low and
+high parts. I hadn't really thought before about how this is a
+perfectly valid way to do it (and necessary to support different DRAM
+sizes)!
+
+I'm thinking of building my own 68000 board with DRAM, so it was
+interesting to see how simply the RAS/CAS and refresh circuitry are
+implemented, even if this is because they use DTACK rather than try to
+squeeze between memory accesses. Not a PAL or GAL in sight.
+
 ## TODO: EEPROM disassembly?
